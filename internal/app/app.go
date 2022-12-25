@@ -1,7 +1,9 @@
 package app
 
-import "fmt"
+import (
+	"github.com/banaman/wordbook/pkg/hello"
+)
 
 func Run() {
-	fmt.Println("hello")
+	hello.TryHello()
 }
